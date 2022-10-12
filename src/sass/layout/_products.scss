@@ -9,7 +9,7 @@
 
 .products-container{
     padding-top: 63px;
-    padding-bottom: 62px;
+    padding-bottom: 10px;
 }
 
 .card-set {
@@ -46,3 +46,18 @@
     color: var(--primary-text-color);
 }
 
+.swiper-pagination {
+    position: static;
+    margin-top: 24px;
+}
+
+.swiper-pagination-bullet {
+    width: 28px;
+    height: 28px;
+    background: rgba(217, 217, 217, 1);
+    border: 2px solid rgba(217, 217, 217, 1);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgba(121, 77, 41, 1);
+}
