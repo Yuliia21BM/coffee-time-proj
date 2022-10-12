@@ -1,0 +1,56 @@
+.contacts-section{
+    padding-top: 65px;
+    padding-bottom: 114px;
+}
+
+.contacts-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-title {
+    font-size: 64px;
+    line-height:0.94;
+    margin-bottom: 12px;
+}
+
+.contacts-address {
+    margin-bottom: 21px;
+    font-size: 24px;
+    line-height:1.16;
+    color: var(--primary-text-color);
+    transform: scale(1);
+    transition: transform $animation-time $animation-cubic;
+
+    &:hover,
+    &:focus{
+        transform: scale(1.1);
+    }
+}
+
+.contacts-tell {
+    font-size: 24px;
+    line-height: 1.16;
+    color: var(--primary-text-color);
+    transform: scale(1);
+    transition: transform $animation-time $animation-cubic;
+
+    &:hover,
+    &:focus{
+        transform: scale(1.1);
+    }
+}
+
+.location-bg{
+    width: 569px;
+    padding: 24px 35px;
+
+    background: rgba(79, 53, 26, 0.68);
+    border-radius: 16px;
+}
+
+.lacation-map{
+    width: 500px;
+    height: 500px;
+    border-radius: 16px;
+}

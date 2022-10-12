@@ -1,0 +1,14 @@
+:root{
+    --primary-bg-color: #3F352C;
+    --secondary-bg-color: #724333;
+    --primary-text-color: #FFFFFF;
+    --accent: #6F421A;
+    --primary-color-btn: #A8896C;
+}
+
+
+$animation-time: 250ms;
+$animation-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+
+/**приклад використання анімації**/
+// transition: opacity $animation-time $animation-cubic, visibility $animation-time;
