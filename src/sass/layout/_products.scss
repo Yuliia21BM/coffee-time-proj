@@ -19,18 +19,23 @@
 }
 
 .card {
-    width: 272px;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
     gap: 20px;
-    padding-top: 22px;
-    padding-bottom: 20px;
+    padding:21px 52px;
 
     background: rgba(111, 66, 26, 0.63);
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
     border-radius: 16px;
+    scale: 0.9;
+    transition: scale $animation-cubic $animation-time;
+
+    &:hover{
+        scale: 1;
+        background: rgba(111, 66, 26, 0.4);
+    }
 }
 
 .card-img {
