@@ -51,7 +51,8 @@
     color: var(--primary-text-color);
 }
 
-.swiper-pagination {
+.swiper-pagination,
+.swiper-pagination-catalog {
     position: static;
     margin-top: 24px;
 }
