@@ -1,13 +1,25 @@
 .catalog-container {
-    padding-top: 20px;
-    padding-bottom: 107px;
+    // padding-top: 20px;
+    // padding-bottom: 107px;
+    padding: 20px 25px 107px 25px;
+    display: flex;
+    flex-direction: column;
 }
 
-// .catalog-list{
-//     display: flex;
-//     gap: 120px;
-// }
+.catalog-title{
+    text-align: center;
+    margin-bottom: 30px;
+
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+}
+
+.swiper-slide{
+    display: flex;
+}
 
 .catalog-item{
     display: flex;
+    justify-content: space-between;
 }

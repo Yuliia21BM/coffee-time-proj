@@ -5,7 +5,6 @@
 
 .offered-product-container{
     display: flex;
-    justify-content: space-between;
     position: relative;
 
     &::after{
@@ -24,12 +23,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    margin-right: 167px;
 }
 
 .offered-product-img {
     width: 330px;
     border-radius: 30px;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 
 .offered-product-text {
@@ -60,14 +61,14 @@
     align-items: center;
     width: 150px;
     padding: 5px 25px;
-    margin-bottom: 98px;
+    margin-bottom: 105px;
 
     color: #000000;
     background-color: var(--primary-color-btn);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.05em;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .offered-product-btn {
@@ -79,4 +80,11 @@
     background-color: var(--primary-color-btn);
     border: none;
     border-radius: 30px;
+    scale: 1;
+    transition: scale $animation-time $animation-cubic;
+
+    &:hover,
+    &:focus{
+        scale: 1.1;
+    }
 }
